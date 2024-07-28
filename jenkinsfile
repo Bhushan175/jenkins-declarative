@@ -1,0 +1,10 @@
+pipeline   // comment: declarative pipeline always start with pipeline
+{
+    stages//(it contain all the stages)
+    {
+        stage('print a msg')
+        {
+            steps { echo 'jello jenkins..' }
+        }
+    }
+}
