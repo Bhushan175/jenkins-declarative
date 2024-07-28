@@ -2,9 +2,9 @@ pipeline   // comment: declarative pipeline always start with pipeline
 {
     stages//(it contain all the stages)
     {
-        stage('print a msg')
+        stage('print a msg') //stage name
         {
-            steps { echo 'jello jenkins..' }
+            steps { echo 'jello jenkins..' } //it tells jenkins what to do
         }
     }
 }
